@@ -1,0 +1,36 @@
+﻿<html>
+  <head>
+  <meta charset="utf-8" />
+   <link href="css/注册.css" type="text/css" rel="stylesheet">
+   <meta http-equiv="X-UA-Compatible" content="IE=8">
+<meta http-equiv="X-UA-Compatible"content="IE=7; IE=8；IE=9;IE=10；">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv=Content-Type content="text/html;charset=utf-8"><meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1"><meta content=always name=referrer> 
+ 
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta content="always" name="referrer">
+    <meta name="theme-color" content="#2932e1">
+
+  </head>
+  <body>
+   <div class="top">
+	<div class="main_top">
+		<h1>欢迎注册</h1>
+	</div>
+	<div class="main_one">
+		<form>
+			<div id="main_one_one"><input class="main_one_one" type="text" name="user_name" placeholder="用户名" tips="请输入一个 2-14 位的用户名" errortips="用户名长度不符合" value=""></div>
+			<div id="main_one_two"><input class="main_one_two" type="text" placeholder="邮箱" name="email" tips="请输入你常用的电子邮箱作为你的账号" value="" errortips="邮箱格式不正确"></div>
+			<div id="main_one_three"><input class="main_one_three" type="password" name="password" placeholder="密码" tips="请输入 6-16 个字符,区分大小写" errortips="密码不符合规则"></div>
+		</form>	
+			<label>
+			  <div class="label_one"><input type="checkbox" checked="checked" value="agree" name="agreement_chk">
+			   我同意&nbsp;<span class="one_one">用户协议</span></div>
+			</label>
+		<button class="footer" onclick="AWS.ajax_post($('#register_form'), AWS.ajax_processer, 'error_message'); return false;">注册</button>
+    </div>
+	
+   </div>
+  </body>
+</html>

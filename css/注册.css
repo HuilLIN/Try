@@ -1,0 +1,35 @@
+body{    margin: 0;
+    height: 100%;
+    font-size: 14px;
+    line-height: 160%;
+    color: #666;
+	background:url(../images/注册背景图.jpg) no-repeat ;
+	background-size:cover;
+	}
+	<--开始表演-->
+	.top{position:absolute;left:20%;top:10%}
+	.top{position:absolute;left:35%;top:20%;}
+	 .main_top{width:400px;height:50px;background-color:white;text-align:center;padding-top:5px;padding-bottom:7px;}
+	 .main_one{background-color:rgba(255,255,255,0.7);width:400px;height:auto;margin-top:-20px;}
+		.main_one_two,.main_one_one,.main_one_three{margin-left:15%;}
+		.main_one_two,.main_one_three{height:40px;display:inline;width:70%;margin-top:20px;}
+		.main_one_one{height:40px;width:70%;margin-top:50px;}
+		.label_one{margin-top:25px;margin-left:15%;}
+		  .one_one{color:purple;font-family:"微软雅黑";}
+	.footer{
+		height: 40px;
+		line-height: 40px;
+		padding: 0;
+		padding-top: 0px;
+		padding-right: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		border: none;
+		width:70%;
+		margin-left:15%;
+		background-color:#660066;
+		color: #fff;
+		margin-top:22px;
+		margin-bottom:25px;
+		border-radius:5px 5px 5px 5px ;
+		}
